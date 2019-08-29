@@ -1,5 +1,5 @@
 export default {
-  install (Vue, options) {
+  install (Vue) {
     Vue.prototype.util = {
       /* 日期格式化 */
       dateFormat (date, fmt) {

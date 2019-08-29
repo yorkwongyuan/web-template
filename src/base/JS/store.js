@@ -1,12 +1,12 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 import performance from './modules/performance'
-import {CRUMB, MENUMESSAGE, SETUSERINFO} from './types'
+import { CRUMB, MENUMESSAGE, SETUSERINFO } from './types'
 // 首先声明一个状态 state
 Vue.use(Vuex)
 
 const myPlugins = store => {
-  store.subscribe((mutation, state) => {
+  store.subscribe(() => {
     // console.log(mutation, 'mutation')
   })
 }
