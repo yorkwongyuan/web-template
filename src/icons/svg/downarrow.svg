@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/normal/箭头向下 灰色</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon/normal/箭头向下-灰色" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-2" fill="#FFFFFF" opacity="0.01" x="0" y="0" width="12" height="12"></rect>
+        <path d="M6,9.5 C5.74401067,9.5 5.48802133,9.4020035 5.29302946,9.20701046 L0.293237782,4.20718903 C-0.0977459273,3.81620299 -0.0977459273,3.18422556 0.293237782,2.79323953 C0.684221491,2.40225349 1.31619516,2.40225349 1.70717887,2.79323953 L6,7.08608621 L10.2928211,2.79323953 C10.6838048,2.40225349 11.3157785,2.40225349 11.7067622,2.79323953 C12.0977459,3.18422556 12.0977459,3.81620299 11.7067622,4.20718903 L6.70697054,9.20701046 C6.51197867,9.4020035 6.25598933,9.5 6,9.5" id="Fill-1" fill="#BBBBBB"></path>
+    </g>
+</svg>

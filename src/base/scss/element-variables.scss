@@ -1,0 +1,53 @@
+/* 改变主题色变量 */
+$--color-primary: #597EF7;
+$--color-white: #ffffff;
+$--color-success: #1ec281 !default;
+$--color-warning: #ffc53d !default;
+$--color-danger: #f64c4c !default;
+$--color-info: #909399 !default;
+$--color-text-primary: #000000 !default;
+$--color-text-regular: #555555 !default;
+$--color-text-secondary: #888888 !default;
+$--color-text-placeholder: #BBBBBB !default;
+/* 根据UI规范修改饿了么按钮组件样式，
+ * 有三种主按钮样式：large对应primary
+ * medium：medium  small: small */
+$--border-color-base: #DDDDDD !default;
+$--button-font-size: 16px !default;
+$--button-border-radius: 4px !default;
+$--button-padding-vertical: 11px !default;
+$--button-padding-horizontal: 16px !default;
+
+$--button-medium-font-size: 14px !default;
+$--button-medium-border-radius: 4px !default;
+$--button-medium-padding-vertical: 8px !default;
+$--button-medium-padding-horizontal: 16px !default;
+
+$--button-small-font-size: 14px !default;
+$--button-small-border-radius: 4px !default;
+$--button-small-padding-vertical: 4px !default;
+$--button-small-padding-horizontal: 8px !default;
+
+$--button-disabled-fill: #F5F5F5 !default;
+$--button-disabled-border: #DDDDDD !default;
+
+$--button-danger-border: #DDDDDD !default;
+$--button-danger-color: $--color-danger !default;
+$--button-danger-fill: $--color-white !default;
+
+$--table-border-color: #EEEEEE !default;
+$--table-header-color: $--color-text-primary !default;
+$--table-row-hover-background: #e6ebfe !default;
+$--table-current-row-background: #e6ebfe !default;
+$--table-header-background: #F5F5F5 !default;
+
+$--input-small-font-size: 14px !default;
+
+$--pagination-color: $--color-text-regular !default;
+
+$--checkbox-input-height: 16px !default;
+$--checkbox-input-width: 16px !default;
+/* 改变 icon 字体路径变量，必需 */
+$--font-path: '../../../node_modules/element-ui/lib/theme-chalk/fonts';
+
+@import "../../../node_modules/element-ui/packages/theme-chalk/src/index";

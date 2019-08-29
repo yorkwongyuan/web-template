@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/normal/审核通过</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="资质认证审核_已审核" transform="translate(-1205.000000, -286.000000)">
+            <g id="icon/normal/审核通过" transform="translate(1205.000000, 286.000000)">
+                <g>
+                    <text id="Text-Copy-30" transform="translate(40.000000, 40.000000) rotate(-20.000000) translate(-40.000000, -40.000000) " font-family="PingFangSC-Medium, PingFang SC" font-size="14" font-weight="400" line-spacing="22" fill="#597EF7">
+                        <tspan x="12" y="44">审核通过</tspan>
+                    </text>
+                    <circle id="Oval" stroke="#597EF7" cx="40" cy="40" r="39.5"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
