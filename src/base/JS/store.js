@@ -6,9 +6,7 @@ import { CRUMB, MENUMESSAGE, SETUSERINFO } from './types'
 Vue.use(Vuex)
 
 const myPlugins = store => {
-  store.subscribe(() => {
-    // console.log(mutation, 'mutation')
-  })
+  store.subscribe(() => { })
 }
 export default new Vuex.Store({
   plugins: [myPlugins],
@@ -23,33 +21,11 @@ export default new Vuex.Store({
     userInfo: {}
   },
   actions: {
-    [MENUMESSAGE] ({ commit }, menuMessage) {
-      commit('menuMessage', menuMessage)
-    },
-    [CRUMB] ({ commit }, crumb) {
-      commit('crumb', crumb)
-    },
-    [SETUSERINFO] ({ commit }, userInfo) {
-      commit('userInfo', userInfo)
-    }
+
   },
   mutations: {
-    [MENUMESSAGE] (state, menuMessage) {
-      state.menuMessage = menuMessage
-    },
-    [CRUMB] (state, crumb) {
-      state.crumb = crumb
-    },
-    [SETUSERINFO] (state, userInfo) {
-      state.userInfo = userInfo
-    }
+
   },
   getters: {
-    [MENUMESSAGE] (state) {
-      return state.menuMessage
-    },
-    [CRUMB] (state) {
-      return state.crumb
-    }
   }
 })

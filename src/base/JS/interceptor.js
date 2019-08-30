@@ -1,14 +1,13 @@
 import axios from 'axios'
 import vm from '../../main'
-// import { dev } from '../../../config/index'
+import { dev } from './config.js'
 /* 全局默认配置 */
 let loading
 
-let MOCK_URL = 'https://mock.mhealth100.com'
+let MOCK_URL = ''
 // 环境名
-let envName = 'production'
+let envName = dev.setEnv()
 
-// const MOCK_URL = ''
 var http = axios.create({
   baseURL: process.env.NODE_ENV === envName ? window.location.protocol + '//' + window.location.host : MOCK_URL
 })

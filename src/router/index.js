@@ -4,7 +4,21 @@ import Router from 'vue-router'
 Vue.use(Router)
 
 const router = new Router({
-  routes: []
+  routes: [
+    {
+      path: '/',
+      name: '',
+      redirect: '/main-page'
+    },
+    {
+      path: '/main-menu',
+      name: 'mainMenu',
+      meta: {
+        keepAlive: false
+      },
+      component: resolve => { require(['../views/main-pages/main-page'], resolve) },
+    },
+  ]
 })
 
 router.afterEach(to => {
